@@ -1,0 +1,61 @@
+#logoContainer {
+    z-index: 999999;
+    position: fixed;
+    animation-name: initShow;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+}
+
+#logoContainer svg {
+    z-index: -99;
+}
+
+#logoContainer svg path {
+    stroke-dashoffset: 210;
+    stroke-dasharray: 210;
+    animation: dash 3.8s forwards;
+}
+
+#logoContainer svg g {
+    fill-opacity: 0;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes initShow {
+    0% {
+        filter: opacity(1);
+    }
+    75% {
+        filter: opacity(1);
+    }
+    100% {
+        filter: opacity(0);
+    }
+}
+
+#bg-card-1 {
+    background-image: url("../img/teclado.jpg");
+    background-position: center;
+    min-height: 200px;
+    filter: hue-rotate(150deg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 250px;
+}
+
+#bg-card-2 {
+    background-image: url("../img/rocket_launch.jpg");
+    background-position: center;
+    min-height: 200px;
+    filter: hue-rotate(-75deg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 250px;
+}

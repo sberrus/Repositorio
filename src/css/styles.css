@@ -1,0 +1,99 @@
+/*
+    Global Styles.
+
+    This File here is the Global design instructions for the site.
+*/
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: hsla(0, 0%, 100%, 0.61);
+    font-weight: lighter;
+}
+
+h1 {
+    color: #ffffffe5;
+}
+
+h2 {
+    color: #ffffffc0;
+}
+
+.text-shadow {
+    text-shadow: 0px 0px 1px black;
+}
+
+.nav-link {
+    z-index: 9999;
+    font-size: 16px;
+}
+
+.button-principal:hover,
+.button-principal:active {
+    background-color: #ffffffc0;
+    color: #000 !important;
+}
+
+
+/* ##### INSTRUCCIONES CUSTOM BOOTSTRAP ##### */
+
+.vh-25 {
+    height: 25vh;
+}
+
+.vh-30 {
+    height: 30vh;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+.vh-75 {
+    height: 75vh;
+}
+
+.top-75 {
+    top: 75%;
+}
+
+.bg-black {
+    background-color: #212121;
+}
+
+.text-grey {
+    color: #d9d9d9;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-java {
+    color: #f58219;
+}
+
+.text-javascript {
+    color: #efd81d;
+}
+
+.subtitle-big {
+    font-size: 3vh;
+    text-shadow: 0 0 1px #fafafa;
+    text-align: end;
+}
+
+.title-big {
+    font-size: 5vh;
+    text-shadow: 0 0 1px #fafafa;
+}
+
+.text-dark-face {
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
+footer {
+    border-top: 1px solid white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
