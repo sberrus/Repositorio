@@ -14,7 +14,7 @@
 <body class="bg-black">
     <div id="pageWraper" class="container-fluid vh-100 p-0">
         <!-- Capa Inicio -->
-        <div class="container-fluid top-0 vh-100 bg-black" id="logoContainer">
+        <!-- <div class="container-fluid top-0 vh-100 bg-black" id="logoContainer">
             <div class="h-100 d-flex justify-content-center">
                 <div class="position-relative m-auto">
                     <svg xmlns="http://www.w3.org/2000/svg" width="100" height="99" viewBox="0 0 100 99" fill="none">
@@ -35,42 +35,49 @@
                     <h2 class="text-grey text-center fw-lighter">Samdev</h1>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Fin Capa Inicio  -->
-
-
 
         <!-- Cuerpo de la página -->
         <div class="container-fluid p-0" id="wrapper">
             <!-- Menú  -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom position-fixed top-0 w-100">
-                <div class="container-fluid d-flex">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="src/img/Logo 50 new.svg">
-                    </a>
-                    <button class="navbar-toggler border border-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav w-100 d-flex justify-content-around">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="/">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/tecnologias">Tecnologías</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/proyectos">Proyectos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/contacto">Contacto</a>
-                            </li>
-                        </ul>
+            <div class="container">
+                <div class="container-fluid border-bottom">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+                            <div class="container-fluid d-flex">
+                                <a class="navbar-brand" href="/">
+                                    <img src="../src/img/Logo 50 new.svg">
+                                </a>
+                                <button class="navbar-toggler border border-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav w-100 d-flex justify-content-around text-end">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/tecnologias">Tecnologías</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/proyectos">Proyectos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/contacto">Contacto</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
                     </div>
                 </div>
-            </nav>
+            </div>
             <!--Fin Menú-->
-            <div class="container my-5 p-0">
+
+
+
+            <div class="container p-0">
                 <div class="container">
                     <div style="height: 40px"></div>
                     <h1 class="fw-light text-success">Samdev</h1>
@@ -115,7 +122,7 @@
         </div>
         <!-- Fin Cuerpo página -->
         <footer>
-            <div style="text-align: center; border-top: 1px solid white; height: 50px;">
+            <div class="w-100 text-center">
                 [Insertar Footer]
             </div>
         </footer>

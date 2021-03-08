@@ -9,3 +9,19 @@
     height: auto;
     width: 50px;
 }
+
+#bootstrap {
+    background-color: #553a7d;
+}
+
+#html {
+    background-color: hsl(12, 78%, 25%);
+}
+
+#css {
+    background-color: hsl(203, 65%, 25%);
+}
+
+#javascript {
+    background-color: hsl(52, 84%, 25%);
+}

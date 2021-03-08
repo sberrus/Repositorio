@@ -13,32 +13,36 @@
 
 <body class="bg-black">
     <!-- Menú  -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom">
-        <div class="container-fluid d-flex">
-            <a class="navbar-brand" href="/">
-                <img src="../src/img/Logo 50 new.svg">
-            </a>
-            <button class="navbar-toggler border border-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav w-100 d-flex justify-content-around">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/tecnologias">Tecnologías</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/proyectos">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contacto">Contacto</a>
-                    </li>
-                </ul>
-            </div>
+    <div class="container-fluid border-bottom">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+                <div class="container-fluid d-flex">
+                    <a class="navbar-brand" href="/">
+                        <img src="../src/img/Logo 50 new.svg">
+                    </a>
+                    <button class="navbar-toggler border border-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav w-100 d-flex justify-content-around text-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/tecnologias">Tecnologías</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/proyectos">Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
-    </nav>
+    </div>
     <!--Fin Menú-->
     <!-- Cuerpo de la página -->
     <div class="container-fluid p-0" id="wrapper">
@@ -50,8 +54,8 @@
         </div>
     </div>
     <!-- Fin Cuerpo página -->
-    <footer>
-        <div style="text-align: center; border-top: 1px solid white; height: 50px;" onclick="alert('Tienes un footer para mí?')">
+    <footer class="position-fixed bottom-0 w-100">
+        <div class=" w-100 text-center">
             [Insertar Footer]
         </div>
     </footer>

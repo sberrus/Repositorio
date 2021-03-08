@@ -24,13 +24,18 @@ h2 {
 
 .nav-link {
     z-index: 9999;
-    font-size: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
 .button-principal:hover,
 .button-principal:active {
     background-color: #ffffffc0;
     color: #000 !important;
+}
+
+nav {
+    z-index: 9999;
 }
 
 
