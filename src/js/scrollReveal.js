@@ -7,7 +7,7 @@ ScrollReveal({
 })
 
 //Aplicar reglas a ciertos elementos.
-ScrollReveal().reveal(".container",{
+ScrollReveal().reveal(".reveal-container",{
     reset:true,
     delay:150
 });
