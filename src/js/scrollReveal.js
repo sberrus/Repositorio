@@ -15,3 +15,12 @@ ScrollReveal().reveal(".tech-items",{
     reset:true,
     interval: 150
 });
+ScrollReveal().reveal("#img-header",{
+    reset:true,
+    delay: 450
+});
+
+ScrollReveal().reveal(".reveal-home",{
+    reset:true,
+    delay: 3000
+});
