@@ -7,20 +7,17 @@ ScrollReveal({
 })
 
 //Aplicar reglas a ciertos elementos.
-ScrollReveal().reveal(".reveal-container",{
-    reset:true,
-    delay:150
+ScrollReveal().reveal(".reveal-container", {
+    delay: 150
 });
-ScrollReveal().reveal(".tech-items",{
-    reset:true,
+ScrollReveal().reveal(".tech-items", {
+    reset: true,
     interval: 150
 });
-ScrollReveal().reveal("#img-header",{
-    reset:true,
+ScrollReveal().reveal("#img-header", {
     delay: 450
 });
 
-ScrollReveal().reveal(".reveal-home",{
-    reset:true,
+ScrollReveal().reveal(".reveal-home", {
     delay: 3000
 });
