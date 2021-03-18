@@ -8,14 +8,13 @@ ScrollReveal({
 
 //Aplicar reglas a ciertos elementos.
 ScrollReveal().reveal(".reveal-container", {
-    delay: 150
+    delay: 80
 });
 ScrollReveal().reveal(".tech-items", {
-    reset: true,
-    interval: 150
+    interval: 80
 });
 ScrollReveal().reveal("#img-header", {
-    delay: 450
+    delay: 80
 });
 
 ScrollReveal().reveal(".reveal-home", {
