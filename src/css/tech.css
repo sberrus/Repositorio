@@ -1,11 +1,9 @@
-#img-header {
+#img-header-tech {
     background-image: url("../img/codes.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
 }
-
-
 
 #bootstrap {background-color: #553a7d;}
 #html {background-color: #eb795d;}

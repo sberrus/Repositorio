@@ -67,7 +67,9 @@ nav {
 .bg-black {
     background-color: #212121;
 }
-
+.bg-dark-opacity-50{
+    background-color: #2121217a;
+}
 .text-grey {
     color: #d9d9d9;
 }
