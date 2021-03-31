@@ -41,21 +41,15 @@
 #bg-card-1 {
     background-image: url("../img/teclado.jpg");
     background-position: center;
-    min-height: 200px;
     filter: hue-rotate(150deg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: darken;
-    height: 250px;
 }
 
 #bg-card-2 {
     background-image: url("../img/rocket_launch.jpg");
     background-position: center;
-    min-height: 200px;
     filter: hue-rotate(-75deg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: darken;
-    height: 250px;
 }
